@@ -31,7 +31,7 @@ exports['test'] = {
    setUp: function(done) {
       commsComp.init({
          sms           : {  accountSid : 'AC952cebd3bbdfe9f08ab835c7c9ec7a04', authToken: 'a1a77757930e53545fd3ba29a3e12a67' },
-         email         : { type : 'SMTP', service: 'Gmail', user: 'dmccarthy@gmail.com', pass: 'd0na1McC' },
+         email         : { type : 'SMTP', service: 'Gmail', user: 'openi.notifications@gmail.com', pass: '3oP1l2nPbF9EVUL' },
          sink          : { spec:'tcp://127.0.0.1:49907', bind:true, type:'pull', id:'communication_id' },
          logger_params : {
             'path'     : '/opt/openi/cloudlet_platform/logs/communications',
@@ -53,7 +53,7 @@ exports['test'] = {
          {
             'type'      : 'EMAIL',
             'subject'   : 'test email',
-            'to'        : 'dmccarthy@tssg.org',
+            'to'        : 'dconway@tssg.org',
             'text'      : 'Hi There',
             'html'      : 'Hi <b>There</b>'
          }
