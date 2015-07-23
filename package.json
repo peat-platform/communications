@@ -1,15 +1,15 @@
 {
    "name"        : "communications",
-   "description" : "Object API for the OPENi Cloudlet Platform",
+   "description" : "Object API for the PEAT Cloudlet Platform",
    "version"     : "0.1.0",
-   "homepage"    : "openi-ict.eu",
+   "homepage"    : "peat-platform.eu",
    "author"      : {
       "name" : "dmccarthy",
       "email": "dmccarthy@tssg.org"
    },
    "repository"  : {
       "type": "git",
-      "url" : "git@github.com:OPENi-ict/communication.git"
+      "url" : "git@github.com:peat-platform/communication.git"
    },
    "bugs"        : {
       "url": ""
@@ -17,7 +17,7 @@
    "licenses"    : [
       {
          "type": "MIT",
-         "url" : "openi-ict.eu/blob/master/LICENSE-MIT"
+         "url" : "peat-platform.eu/blob/master/LICENSE-MIT"
       }
    ],
    "main"        : "lib/main",
@@ -28,10 +28,10 @@
       "test": "grunt nodeunit"
    },
    "dependencies": {
-      "m2nodehandler"          : "OPENi-ict/m2nodehandler",
-      "dbc"                    : "OPENi-ict/dbc",
-      "openi-logger"           : "OPENi-ict/openi-logger",
-      "cloudlet-utils"   	   : "OPENi-ict/cloudlet-utils",
+      "m2nodehandler"          : "peat-platform/m2nodehandler",
+      "dbc"                    : "peat-platform/dbc",
+      "peat-logger"           : "peat-platform/peat-logger",
+      "cloudlet-utils"   	   : "peat-platform/cloudlet-utils",
       "twilio"                 : "",
       "nodemailer"             : "",
       "nano"                   : ""

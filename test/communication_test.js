@@ -34,7 +34,7 @@ exports['test'] = {
          email         : { type : 'SMTP', service: 'Gmail', user: 'openi.notifications@gmail.com', pass: '3oP1l2nPbF9EVUL' },
          sink          : { spec:'tcp://127.0.0.1:49907', bind:true, type:'pull', id:'communication_id' },
          logger_params : {
-            'path'     : '/opt/openi/cloudlet_platform/logs/communications',
+            'path'     : '/opt/peat/cloudlet_platform/logs/communications',
             'log_level': 'debug',
             'as_json'  : true
          }
